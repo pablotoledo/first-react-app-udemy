@@ -8,7 +8,7 @@ function App() {
   const edad = 29;
 
   const user ={
-    nombre: "Pablo Toledo",
+    //nombre: "Pablo Toledo",
     edad: 29,
     color: "Azul"
   }

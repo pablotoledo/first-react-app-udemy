@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Saludar(props) {
     const {user, saludarFn} = props;
-    const {nombre, edad, color} = user;
-
-    console.log(user)
-    console.log(saludarFn)
+    const {nombre = "Anonimo", edad, color} = user;
 
     console.log(props);
 
