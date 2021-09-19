@@ -11,7 +11,7 @@ export default function Saludar(props) {
             <h2>
                 Hola {nombre}, tiene {edad} años y su color preferido es el {color}
             </h2>
-            <button onClick={() => saludarFn(nombre)}>Saludar</button>
+            <button onClick={() => saludarFn(nombre,edad)}>Saludar</button>
         </div>
     )
 

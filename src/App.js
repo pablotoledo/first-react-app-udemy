@@ -8,13 +8,14 @@ function App() {
   const edad = 29;
 
   const user ={
-    //nombre: "Pablo Toledo",
+    nombre: "Pablo Toledo",
     edad: 29,
     color: "Azul"
   }
 
-  const saludarFn = (name) => {
-    console.log("Hola "+ name)
+  const saludarFn = (name,edad) => {
+    console.log("Hola "+ name + " tiene "+edad+ " años.");
+    console.log(`Hola ${name} tiene ${edad} años`);
   }
 
   return (
