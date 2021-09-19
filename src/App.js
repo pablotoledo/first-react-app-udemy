@@ -12,12 +12,17 @@ function App() {
     edad: 29,
     color: "Azul"
   }
+
+  const saludarFn = (name) => {
+    console.log("Hola "+ name)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo"/>
 
-        <Saludar user={user} />
+        <Saludar user={user} saludarFn={saludarFn} />
 
       </header>
     </div>
